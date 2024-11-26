@@ -11,7 +11,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { PageContainer, NotFoundPage } from '@cnamts/synapse-bridge'
+import { PageContainer, NotFoundPage } from '@cnamts/synapse'
 
 export default defineComponent({
 	components: {
