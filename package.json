@@ -20,7 +20,7 @@
 	},
 	"dependencies": {
 		"@cnamts/design-tokens": "2.16.10",
-		"@cnamts/synapse-bridge": "3.0.6",
+		"@cnamts/synapse": "0.0.3-alpha",
 		"@mdi/js": "7.2.96",
 		"@nuxtjs/i18n": "8.3.1",
 		"@pinia/nuxt": "^0.4.11",
