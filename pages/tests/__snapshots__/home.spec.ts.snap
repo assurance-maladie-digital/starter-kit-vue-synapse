@@ -1,0 +1,167 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`home page should render > should render 1`] = `
+"<div>
+  <h1 class="text-primary">Accueil</h1>
+  <div class="mt-6 mb-12 d-flex align-center justify-center">
+    <div class="v-card v-theme--light v-card--density-default v-card--variant-tonal d-flex" style="width: 695px;">
+      <!---->
+      <div class="v-card__loader">
+        <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+          <!---->
+          <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+          <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+          <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+            <div class="v-progress-linear__indeterminate">
+              <div class="v-progress-linear__indeterminate long"></div>
+              <div class="v-progress-linear__indeterminate short"></div>
+            </div>
+          </transition-stub>
+          <!---->
+        </div>
+      </div>
+      <!---->
+      <!----><img src="/starter-kit.svg" alt="Starter kit">
+      <!---->
+      <!----><span class="v-card__underlay"></span>
+    </div>
+  </div>
+  <div class="v-row justify-center">
+    <div class="v-col-md-4 v-col-12">
+      <div class="v-card v-theme--light bg-grey-lighten-4 v-card--density-default v-card--variant-elevated mx-auto">
+        <!---->
+        <div class="v-card__loader">
+          <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+            <!---->
+            <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+            <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+            <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+              <div class="v-progress-linear__indeterminate">
+                <div class="v-progress-linear__indeterminate long"></div>
+                <div class="v-progress-linear__indeterminate short"></div>
+              </div>
+            </transition-stub>
+            <!---->
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <div class="v-card-title">Exemple de composant Nuxt</div>
+        <div class="v-card-item">
+          <!---->
+          <div class="v-card-item__content">
+            <!---->
+            <!---->
+            <div msg="Bonjour">
+              <h1 class="text-primary">Hello World!</h1>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <!---->
+        <!----><span class="v-card__underlay"></span>
+      </div>
+    </div>
+    <div class="v-col-md-4 v-col-12">
+      <div class="v-card v-theme--light bg-grey-lighten-4 v-card--density-default v-card--variant-elevated mx-auto">
+        <!---->
+        <div class="v-card__loader">
+          <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+            <!---->
+            <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+            <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+            <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+              <div class="v-progress-linear__indeterminate">
+                <div class="v-progress-linear__indeterminate long"></div>
+                <div class="v-progress-linear__indeterminate short"></div>
+              </div>
+            </transition-stub>
+            <!---->
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <div class="v-card-title">Exemple de composant DS</div>
+        <div class="v-card-item">
+          <!---->
+          <div class="v-card-item__content">
+            <!---->
+            <!----><a data-v-1ec4f162="" class="v-btn v-theme--light text-primary v-btn--density-default v-btn--size-default v-btn--variant-text px-0 pr-1 vd-back-btn text-none" outlined="false"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+              <!----><span class="v-btn__content" data-no-activator=""><i data-v-1ec4f162="" class="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z mdi v-icon notranslate v-theme--light v-icon--size-default text-primary mr-1" aria-hidden="true"></i>Retour</span>
+              <!---->
+              <!---->
+            </a><br><br><a href="https://digital-design-system.netlify.app/demarrer/introduction/" target="_blank"> Voir la documentation des composants du Design System. </a>
+          </div>
+          <!---->
+        </div>
+        <!---->
+        <!----><span class="v-card__underlay"></span>
+      </div>
+    </div>
+    <div class="v-col-md-4 v-col-12">
+      <div class="v-card v-theme--light bg-grey-lighten-4 v-card--density-default v-card--variant-elevated mx-auto">
+        <!---->
+        <div class="v-card__loader">
+          <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+            <!---->
+            <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+            <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+            <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+              <div class="v-progress-linear__indeterminate">
+                <div class="v-progress-linear__indeterminate long"></div>
+                <div class="v-progress-linear__indeterminate short"></div>
+              </div>
+            </transition-stub>
+            <!---->
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <div class="v-card-title">Test des stores</div>
+        <div class="v-card-item">
+          <!---->
+          <div class="v-card-item__content">
+            <!---->
+            <!---->
+            <div>Compteur: 0</div>
+            <div class="d-flex flex-wrap align-center justify-center"><button type="button" class="v-btn v-btn--elevated v-theme--light bg-primary v-btn--density-default v-btn--size-default v-btn--variant-elevated ma-2"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                <!----><span class="v-btn__content" data-no-activator=""> Incrémenter </span>
+                <!---->
+                <!---->
+              </button><button type="button" class="v-btn v-btn--elevated v-theme--light bg-primary v-btn--density-default v-btn--size-default v-btn--variant-elevated ma-2"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                <!----><span class="v-btn__content" data-no-activator=""> Décrémenter </span>
+                <!---->
+                <!---->
+              </button><button type="button" class="v-btn v-btn--elevated v-theme--light bg-primary v-btn--density-default v-btn--size-default v-btn--variant-elevated ma-2"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                <!----><span class="v-btn__content" data-no-activator=""> Réinitialiser </span>
+                <!---->
+                <!---->
+              </button></div>
+          </div>
+          <!---->
+        </div>
+        <div class="v-card-item">
+          <!---->
+          <div class="v-card-item__content">
+            <!---->
+            <!---->
+            <div> Notification: </div>
+            <div class="d-flex flex-wrap align-center justify-center"><button type="button" class="v-btn v-btn--elevated v-theme--light bg-primary v-btn--density-default v-btn--size-default v-btn--variant-elevated ma-2"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                <!----><span class="v-btn__content" data-no-activator=""> Créer une notification </span>
+                <!---->
+                <!---->
+              </button><button type="button" class="v-btn v-btn--elevated v-theme--light bg-primary v-btn--density-default v-btn--size-default v-btn--variant-elevated ma-2"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                <!----><span class="v-btn__content" data-no-activator=""> Supprimer une notification </span>
+                <!---->
+                <!---->
+              </button></div>
+          </div>
+          <!---->
+        </div>
+        <!---->
+        <!----><span class="v-card__underlay"></span>
+      </div>
+    </div>
+  </div>
+</div>"
+`;
