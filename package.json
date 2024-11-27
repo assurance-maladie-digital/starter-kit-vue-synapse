@@ -19,7 +19,6 @@
 		"lint:fix": "eslint . --fix && prettier --write --list-different ."
 	},
 	"dependencies": {
-		"@cnamts/design-tokens": "2.16.10",
 		"@cnamts/synapse": "0.0.4-alpha",
 		"@mdi/js": "7.2.96",
 		"@nuxtjs/i18n": "8.3.1",
