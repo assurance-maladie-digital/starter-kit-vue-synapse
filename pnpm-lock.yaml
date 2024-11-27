@@ -12,8 +12,8 @@ dependencies:
     specifier: 7.2.96
     version: 7.2.96
   '@nuxtjs/i18n':
-    specifier: 8.3.1
-    version: 8.3.1(rollup@4.27.4)(vue@3.5.13)
+    specifier: 8.5.6
+    version: 8.5.6(rollup@4.27.4)(vue@3.5.13)
   '@pinia/nuxt':
     specifier: ^0.4.11
     version: 0.4.11(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13)
@@ -1581,8 +1581,8 @@ packages:
       - vue-tsc
     dev: false
 
-  /@nuxtjs/i18n@8.3.1(rollup@4.27.4)(vue@3.5.13):
-    resolution: {integrity: sha512-VHnnjFTTep2oC5++61WY06y4c/h943NyHQh1CRUJQvjsdbGSMX3WQjMGk+X05a3pyPFN70aq0YbgtsEoEoTEjQ==}
+  /@nuxtjs/i18n@8.5.6(rollup@4.27.4)(vue@3.5.13):
+    resolution: {integrity: sha512-L+g+LygKNoaS/AXExk7tzS9wSNn9QdP1T9VdTjjEGYftpeFgv2U8AQsY0dQAhgPIbXXhIAkNYxTk4YcINj9CfA==}
     engines: {node: ^14.16.0 || >=16.11.0}
     dependencies:
       '@intlify/h3': 0.5.0
