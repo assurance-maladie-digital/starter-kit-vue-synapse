@@ -32,6 +32,12 @@ export default defineNuxtConfig({
 							// ...customTheme,
 						},
 					},
+					dark: {
+						colors: {
+							...cnamLightTheme,
+							// ...customTheme,
+						},
+					},
 				},
 			},
 		},
