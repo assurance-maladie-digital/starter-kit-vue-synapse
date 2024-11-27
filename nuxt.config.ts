@@ -36,7 +36,6 @@ export default defineNuxtConfig({
 		transpile: [
 			'vuetify',
 			'@cnamts/synapse',
-			'@cnamts/design-tokens',
 		],
 	},
 	vite: {
