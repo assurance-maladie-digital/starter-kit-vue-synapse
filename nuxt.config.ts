@@ -1,5 +1,5 @@
 import { cnamLightTheme } from '@cnamts/synapse/designTokens/tokens/cnam/cnamLightTheme.ts'
-import { customTheme } from './assets/theme'
+// import { customTheme } from './assets/theme'
 import Components from 'unplugin-vue-components/vite'
 
 export default defineNuxtConfig({
