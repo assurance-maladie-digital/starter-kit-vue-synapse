@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@cnamts/design-tokens':
-    specifier: 2.16.10
-    version: 2.16.10
+    specifier: 2.16.13
+    version: 2.16.13
   '@cnamts/synapse':
     specifier: 0.0.4-alpha
     version: 0.0.4-alpha(sass@1.81.0)(typescript@5.7.2)(vue@3.5.13)(vuetify@3.7.4)
@@ -406,8 +406,8 @@ packages:
     dependencies:
       mime: 3.0.0
 
-  /@cnamts/design-tokens@2.16.10:
-    resolution: {integrity: sha512-joRhjKbcOk9t1TmxH06+hfFtwuTFq3OmYz8DK/+ld8KjA8IOZylSUeASuRKOv9mQWvexoZbHjhPSnszvuo6ipg==}
+  /@cnamts/design-tokens@2.16.13:
+    resolution: {integrity: sha512-0IjVoLkQnmKocPBBPryWUZY6Hj6ceVXxlmJQWKXiSjPuGfEeGCnIrWWXWcby9Gld+b8zFa1lMwfODGpELiYQ9A==}
     dev: false
 
   /@cnamts/synapse@0.0.4-alpha(sass@1.81.0)(typescript@5.7.2)(vue@3.5.13)(vuetify@3.7.4):
