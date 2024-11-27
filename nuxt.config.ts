@@ -29,7 +29,7 @@ export default defineNuxtConfig({
 					light: {
 						colors: {
 							...cnamLightTheme,
-							// ... customTheme,
+							// ...customTheme,
 						},
 					},
 				},
