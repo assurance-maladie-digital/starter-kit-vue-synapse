@@ -1,7 +1,7 @@
-import { customLightTheme } from 'assets/customLightTheme'
-import { customDarkTheme } from 'assets/customDarkTheme'
+// import { customLightTheme } from 'assets/customLightTheme'
+// import { customDarkTheme } from 'assets/customDarkTheme'
 import { cnamLightTheme } from '@cnamts/synapse/designTokens/tokens/cnam/cnamLightTheme'
-import { cnamDarkTheme } from '@cnamts/synapse/designTokens/tokens/cnam/cnamDarkTheme'
+// import { cnamDarkTheme } from '@cnamts/synapse/designTokens/tokens/cnam/cnamDarkTheme'
 import Components from 'unplugin-vue-components/vite'
 
 export default defineNuxtConfig({
@@ -29,11 +29,17 @@ export default defineNuxtConfig({
 				defaultTheme: 'light',
 				themes: {
 					light: {
-						colors: { ...cnamLightTheme, ...customLightTheme },
+						colors: {
+							...cnamLightTheme,
+							// ...customLightTheme
+						},
 					},
-					dark: {
-						colors: { ...cnamDarkTheme, ...customDarkTheme, },
-					},
+					// dark: {
+					// 	colors: {
+					// 		...cnamDarkTheme,
+					// 		...customDarkTheme,
+					// 	},
+					// },
 				},
 			},
 		},
