@@ -3,6 +3,7 @@
 import { cnamLightTheme } from '@cnamts/synapse/designTokens/tokens/cnam/cnamLightTheme'
 // import { cnamDarkTheme } from '@cnamts/synapse/designTokens/tokens/cnam/cnamDarkTheme'
 import Components from 'unplugin-vue-components/vite'
+import { fr } from 'vuetify/locale'
 
 export default defineNuxtConfig({
 	ssr: false,
@@ -22,6 +23,10 @@ export default defineNuxtConfig({
 	],
 	vuetify: {
 		vuetifyOptions: {
+			locale: {
+				locale: 'fr',
+				messages: { fr },
+			},
 			icons: {
 				defaultSet: 'mdi-svg',
 			},
