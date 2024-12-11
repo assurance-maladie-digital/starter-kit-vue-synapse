@@ -5,7 +5,6 @@
 				service-title="Titre du service"
 				service-sub-title="Description du service"
 				:navigation-items="navigationItems"
-				home-link="/home"
 			/>
 			<PageContainer>
 				<slot />
