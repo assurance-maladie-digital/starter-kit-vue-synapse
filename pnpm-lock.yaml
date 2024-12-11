@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.0.5-alpha
     version: 0.0.5-alpha(sass@1.82.0)(typescript@5.7.2)(vue@3.5.13)(vuetify@3.7.5)
   '@mdi/js':
-    specifier: 7.2.96
-    version: 7.2.96
+    specifier: 7.4.47
+    version: 7.4.47
   '@nuxtjs/i18n':
     specifier: 8.3.1
     version: 8.3.1(rollup@4.28.1)(vue@3.5.13)
@@ -1179,10 +1179,6 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
-    dev: false
-
-  /@mdi/js@7.2.96:
-    resolution: {integrity: sha512-paR9M9ZT7rKbh2boksNUynuSZMHhqRYnEZOm/KrZTjQ4/FzyhjLHuvw/8XYzP+E7fS4+/Ms/82EN1pl/OFsiIA==}
     dev: false
 
   /@mdi/js@7.4.47:
