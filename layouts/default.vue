@@ -16,7 +16,7 @@
 				hide-legal-notice-link
 				hide-sitemap-link
 			>
-				<p class="text-secondary mb-0">Contenu supplémentaire.</p>
+				<p class="text-white mb-0">Contenu supplémentaire.</p>
 			</FooterBar>
 		</main>
 	</VApp>
