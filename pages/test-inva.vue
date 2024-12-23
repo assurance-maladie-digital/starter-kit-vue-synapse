@@ -84,7 +84,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-@import '@cnamts/synapse/src/assets/tokens.scss';
+@use '@cnamts/synapse/src/assets/tokens.scss';
 
 .warning {
 	color: black !important;
@@ -93,7 +93,7 @@ export default defineComponent({
 	color: white !important;
 }
 .inva {
-	background-color: $mauve-darken-60 !important;
+	background-color: tokens.$mauve-darken-60 !important;
 	color: white;
 }
 </style>
