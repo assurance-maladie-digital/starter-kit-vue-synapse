@@ -40,20 +40,12 @@ export default defineComponent({
 					to: '/home',
 				},
 				{
-					label: 'Tokens',
-					to: '/tokens',
-				},
-				{
-					label: 'Maintenance',
-					to: '/maintenance',
-				},
-				{
-					label: 'Erreur',
-					to: '/not-found',
-				},
-				{
 					label: 'Inva',
 					to: '/test-inva',
+				},
+				{
+					label: 'SyAlert',
+					to: '/sy-alert',
 				},
 			],
 		}
