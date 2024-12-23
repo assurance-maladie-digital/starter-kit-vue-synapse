@@ -1,10 +1,10 @@
 <template>
 	<VApp>
 		<main>
-			<HeaderBar
+			<HeaderNavigationBar
 				service-title="Titre du service"
 				service-sub-title="Description du service"
-				:navigation-items="navigationItems"
+				:items="navigationItems"
 			/>
 			<PageContainer>
 				<slot />
@@ -24,12 +24,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { PageContainer, HeaderBar, FooterBar } from '@cnamts/synapse'
+import { PageContainer, HeaderNavigationBar, FooterBar } from '@cnamts/synapse'
 
 export default defineComponent({
 	components: {
 		PageContainer,
-		HeaderBar,
+		HeaderNavigationBar,
 		FooterBar,
 	},
 	data() {
@@ -50,6 +50,10 @@ export default defineComponent({
 				{
 					label: 'Erreur',
 					to: '/not-found',
+				},
+				{
+					label: 'Inva',
+					to: '/test-inva',
 				},
 			],
 		}
