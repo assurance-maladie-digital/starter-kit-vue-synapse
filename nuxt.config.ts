@@ -6,67 +6,79 @@ import Components from 'unplugin-vue-components/vite'
 import { fr } from 'vuetify/locale'
 
 export default defineNuxtConfig({
-	ssr: false,
-	runtimeConfig: {
-		public: {
-			title: process.env.TITLE,
-			message: process.env.MESSAGE,
-			theme: process.env.THEME,
-		},
+ ssr: false,
+
+ runtimeConfig: {
+					public: {
+									title: process.env.TITLE,
+									message: process.env.MESSAGE,
+									theme: process.env.THEME,
+					},
 	},
-	devtools: { enabled: true },
-	modules: [
-		'vuetify-nuxt-module',
-		'dayjs-nuxt',
-		'@pinia/nuxt',
-		'@nuxt/eslint',
+
+ devtools: { enabled: true },
+
+ modules: [
+					'vuetify-nuxt-module',
+					'dayjs-nuxt',
+					'@pinia/nuxt',
+					'@nuxt/eslint',
 	],
-	vuetify: {
-		vuetifyOptions: {
-			locale: {
-				locale: 'fr',
-				messages: { fr },
-			},
-			icons: {
-				defaultSet: 'mdi-svg',
-			},
-			theme: {
-				defaultTheme: 'light',
-				themes: {
-					light: {
-						colors: {
-							...cnamLightTheme,
-							// ...customLightTheme
-						},
+
+ vuetify: {
+					vuetifyOptions: {
+									locale: {
+													locale: 'fr',
+													messages: { fr },
+									},
+									icons: {
+													defaultSet: 'mdi-svg',
+									},
+									theme: {
+													defaultTheme: 'light',
+													themes: {
+																	light: {
+																					colors: {
+																									...cnamLightTheme,
+																									// ...customLightTheme
+																					},
+																	},
+																	dark: {
+																					colors: {
+																									...cnamDarkTheme,
+																									//...customDarkTheme,
+																					},
+																	},
+													},
+									},
 					},
-					dark: {
-						colors: {
-							...cnamDarkTheme,
-							//...customDarkTheme,
-						},
-					},
-				},
-			},
-		},
 	},
-	build: {
-		transpile: ['vuetify', '@cnamts/synapse'],
+
+ build: {
+					transpile: ['vuetify', '@cnamts/synapse'],
 	},
-	vite: {
-		// change the component dirs to match our project layout
-		plugins: [Components({ dts: true, dirs: ['./components'] })],
+
+ vite: {
+					// change the component dirs to match our project layout
+					plugins: [Components({ dts: true, dirs: ['./components'] })],
 	},
-	css: ['@cnamts/synapse/style.css', '~/assets/settings.scss'],
-	imports: {
-		dirs: ['./stores'],
+
+ css: ['@cnamts/synapse/style.css', '~/assets/settings.scss'],
+
+ imports: {
+					dirs: ['./stores'],
 	},
-	dayjs: {
-		locales: ['en', 'fr'],
-		plugins: ['relativeTime', 'utc', 'timezone'],
-		defaultLocale: 'fr',
-		defaultTimezone: 'Europe/Paris',
+
+ dayjs: {
+					locales: ['en', 'fr'],
+					plugins: ['relativeTime', 'utc', 'timezone'],
+					defaultLocale: 'fr',
+					defaultTimezone: 'Europe/Paris',
 	},
-	pinia: {
-		autoImports: ['defineStore', 'acceptHMRUpdate'],
+
+ pinia: {
+					autoImports: ['defineStore', 'acceptHMRUpdate'],
 	},
+
+ compatibilityDate: '2024-12-23',
 })
