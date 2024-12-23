@@ -51,6 +51,10 @@ export default defineComponent({
 					label: 'Erreur',
 					to: '/not-found',
 				},
+				{
+					label: 'Inva',
+					to: '/test-inva',
+				},
 			],
 		}
 	},
