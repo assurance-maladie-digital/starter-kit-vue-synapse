@@ -47,6 +47,10 @@ export default defineComponent({
 					label: 'SyAlert',
 					to: '/sy-alert',
 				},
+				{
+					label: 'PageContainer',
+					to: '/page-container',
+				},
 			],
 		}
 	},
