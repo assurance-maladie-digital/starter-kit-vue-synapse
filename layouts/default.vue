@@ -37,31 +37,31 @@ export default defineComponent({
 			navigationItems: [
 				{
 					label: 'Accueil',
-					to: '/home',
+					href: '/home',
 				},
 				{
 					label: 'Inva',
-					to: '/test-inva',
+					href: '/test-inva',
 				},
 				{
 					label: 'SyAlert',
-					to: '/sy-alert',
+					href: '/sy-alert',
 				},
 				{
 					label: 'PageContainer',
-					to: '/page-container',
+					href: '/page-container',
 				},
 				{
 					label: 'HeaderBar',
-					to: '/header-bar',
+					href: '/header-bar',
 				},
 				{
 					label: 'FooterBar',
-					to: '/footer-bar',
+					href: '/footer-bar',
 				},
 				{
 					label: 'SubHeader',
-					to: '/sub-header',
+					href: '/sub-header',
 				},
 			],
 		}
