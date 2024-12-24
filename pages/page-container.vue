@@ -9,7 +9,7 @@ import { PageContainer } from '@cnamts/synapse'
 
 	<br/>
 
-	<PageContainer size="s">
+	<PageContainer size="sm">
 		Contenu de la page
 	</PageContainer>
 
