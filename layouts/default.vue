@@ -51,6 +51,10 @@ export default defineComponent({
 					label: 'PageContainer',
 					to: '/page-container',
 				},
+				{
+					label: 'HeaderBar',
+					to: '/header-bar',
+				},
 			],
 		}
 	},
