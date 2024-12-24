@@ -59,6 +59,10 @@ export default defineComponent({
 					label: 'FooterBar',
 					to: '/footer-bar',
 				},
+				{
+					label: 'SubHeader',
+					to: '/sub-header',
+				},
 			],
 		}
 	},

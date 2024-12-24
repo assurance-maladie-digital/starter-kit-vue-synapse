@@ -3,7 +3,6 @@ import { HeaderBar, SubHeader, UserMenuBtn, HeaderBurgerMenu } from '@cnamts/syn
 
 import { VBtn } from 'vuetify/components'
 import { mdiMagnify, mdiAccountCircleOutline } from '@mdi/js'
-import { mdiFacebook, mdiTwitter, mdiLinkedin, mdiYoutube } from '@mdi/js'
 
 const listItems = [
 	{
