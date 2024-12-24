@@ -55,6 +55,10 @@ export default defineComponent({
 					label: 'HeaderBar',
 					to: '/header-bar',
 				},
+				{
+					label: 'FooterBar',
+					to: '/footer-bar',
+				},
 			],
 		}
 	},
