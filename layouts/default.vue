@@ -107,6 +107,10 @@ export default defineComponent({
 					label: 'UserMenuBtn',
 					href: '/user-menu-btn',
 				},
+				{
+					label: 'SyTextField',
+					href: '/sy-text-field',
+				},
 			],
 		}
 	},
