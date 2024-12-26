@@ -111,6 +111,10 @@ export default defineComponent({
 					label: 'SyTextField',
 					href: '/sy-text-field',
 				},
+				{
+					label: 'SySelect',
+					href: '/sy-select',
+				},
 			],
 		}
 	},
