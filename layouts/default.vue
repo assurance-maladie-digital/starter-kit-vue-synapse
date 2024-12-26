@@ -71,6 +71,10 @@ export default defineComponent({
 					label: 'HeaderLoading',
 					href: '/header-loading',
 				},
+				{
+					label: 'SocialMediaLinks',
+					href: '/social-media-links',
+				},
 			],
 		}
 	},
