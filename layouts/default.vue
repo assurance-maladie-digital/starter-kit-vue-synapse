@@ -99,6 +99,10 @@ export default defineComponent({
 					label: 'DownloadBtn',
 					href: '/download-btn',
 				},
+				{
+					label: 'FranceConnectBtn',
+					href: '/france-connect-btn',
+				},
 			],
 		}
 	},
