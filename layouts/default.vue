@@ -91,6 +91,10 @@ export default defineComponent({
 					label: 'CopyBtn',
 					href: '/copy-btn',
 				},
+				{
+					label: 'LangBtn',
+					href: '/lang-btn',
+				},
 			],
 		}
 	},
