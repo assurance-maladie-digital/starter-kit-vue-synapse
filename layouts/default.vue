@@ -103,6 +103,10 @@ export default defineComponent({
 					label: 'FranceConnectBtn',
 					href: '/france-connect-btn',
 				},
+				{
+					label: 'UserMenuBtn',
+					href: '/user-menu-btn',
+				},
 			],
 		}
 	},

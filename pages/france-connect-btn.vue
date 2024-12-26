@@ -11,4 +11,12 @@ import { FranceConnectBtn } from '@cnamts/synapse'
 		href="/"
 		is-connect-plus
 	/>
+
+	<br/>
+
+	<FranceConnectBtn
+		href="/"
+		is-connect-plus
+		dark
+	/>
 </template>
