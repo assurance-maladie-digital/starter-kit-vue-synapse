@@ -1,7 +1,8 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import { SubHeader } from '@cnamts/synapse'
 
-const items = [
+const items = ref([
 	{
 		title: 'Informations patient',
 		items: [
@@ -22,9 +23,9 @@ const items = [
 			{ key: 'Dernière modification', value: '04/06/2020' },
 		],
 	},
-]
+])
 
-const items2 = [
+const items2 = ref([
 	{
 		title: 'Informations patient',
 		items: [
@@ -45,10 +46,12 @@ const items2 = [
 			{ key: 'Dernière modification', value: '04/06/2020' },
 		],
 	},
-]
+])
 
 const updateInfo = (eventValue: { dataListIndex: number, itemIndex: number }) => {
-	items[eventValue.dataListIndex].items[eventValue.itemIndex].value = '25/09/1970'
+	if (items.value?.[eventValue.dataListIndex]?.items?.[eventValue.itemIndex]) {
+		items.value[eventValue.dataListIndex].items[eventValue.itemIndex].value = '25/09/1970'
+	}
 }
 </script>
 
