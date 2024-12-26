@@ -87,6 +87,10 @@ export default defineComponent({
 					label: 'BackToTopBtn',
 					href: '/back-to-top-btn',
 				},
+				{
+					label: 'CopyBtn',
+					href: '/copy-btn',
+				},
 			],
 		}
 	},
