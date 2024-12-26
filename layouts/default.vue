@@ -115,6 +115,10 @@ export default defineComponent({
 					label: 'SySelect',
 					href: '/sy-select',
 				},
+				{
+					label: 'SyInputSelect',
+					href: '/sy-input-select',
+				},
 			],
 		}
 	},
