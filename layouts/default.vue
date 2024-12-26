@@ -67,6 +67,10 @@ export default defineComponent({
 					label: 'HeaderToolbar',
 					href: '/header-toolbar',
 				},
+				{
+					label: 'HeaderLoading',
+					href: '/header-loading',
+				},
 			],
 		}
 	},
