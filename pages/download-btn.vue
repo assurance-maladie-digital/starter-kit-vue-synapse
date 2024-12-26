@@ -43,7 +43,7 @@ const vuetifyOptions = {
 	<DownloadBtn
 		:file-promise="download"
 		:btn="{ color: 'primary'}"
-		@error="console.error"
+		@error="console.log('error')"
 		@success="notify('Votre attestation a été téléchargée', 'success')"
 	>
 		Download
