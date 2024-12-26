@@ -20,18 +20,47 @@ const notify = (message: string, type: Notification['type']) => {
 	addNotification(notification)
 }
 
+const download2 = () => {
+	return new Promise(() => { setTimeout(() => {}, 100000) })
+}
+
+const vuetifyOptions = {
+	btn: {
+		variant: 'plain',
+		ripple: true,
+		color: 'secondary',
+	},
+	icon: {
+		class: 'ml-2 mr-2',
+		color: 'secondary',
+	}
+}
 </script>
 
 <template>
 	<NotificationBar />
-	<div class="d-flex">
-		<DownloadBtn
-			:file-promise="download"
-			:btn="{ color: 'primary'}"
-			@error="console.error"
-			@success="notify('Votre attestation a été téléchargée', 'success')"
-		>
-			Download
-		</DownloadBtn>
-	</div>
+
+	<DownloadBtn
+		:file-promise="download"
+		:btn="{ color: 'primary'}"
+		@error="console.error"
+		@success="notify('Votre attestation a été téléchargée', 'success')"
+	>
+		Download
+	</DownloadBtn>
+
+	<br/><br/>
+
+	<DownloadBtn :file-promise="download2">
+		Télécharger
+	</DownloadBtn>
+
+	<br/><br/>
+
+	<DownloadBtn
+		:file-promise="download"
+		:vuetify-options="vuetifyOptions"
+	>
+		Télécharger
+	</DownloadBtn>
 </template>
