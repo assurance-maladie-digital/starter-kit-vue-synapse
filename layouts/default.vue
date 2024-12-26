@@ -83,6 +83,10 @@ export default defineComponent({
 					label: 'BackBtn',
 					href: '/back-btn',
 				},
+				{
+					label: 'BackToTopBtn',
+					href: '/back-to-top-btn',
+				},
 			],
 		}
 	},
