@@ -49,7 +49,7 @@ const items2 = ref([
 ])
 
 const updateInfo = (eventValue: { dataListIndex: number, itemIndex: number }) => {
-	if (items.value?.[eventValue.dataListIndex]?.items?.[eventValue.itemIndex]) {
+	if (items) {
 		items.value[eventValue.dataListIndex].items[eventValue.itemIndex].value = '25/09/1970'
 	}
 }
