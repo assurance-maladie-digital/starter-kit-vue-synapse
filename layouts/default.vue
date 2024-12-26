@@ -75,6 +75,10 @@ export default defineComponent({
 					label: 'SocialMediaLinks',
 					href: '/social-media-links',
 				},
+				{
+					label: 'SkipLink',
+					href: '/skip-link',
+				},
 			],
 		}
 	},
