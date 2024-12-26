@@ -79,6 +79,10 @@ export default defineComponent({
 					label: 'SkipLink',
 					href: '/skip-link',
 				},
+				{
+					label: 'BackBtn',
+					href: '/back-btn',
+				},
 			],
 		}
 	},
