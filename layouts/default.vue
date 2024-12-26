@@ -63,6 +63,10 @@ export default defineComponent({
 					label: 'SubHeader',
 					href: '/sub-header',
 				},
+				{
+					label: 'HeaderToolbar',
+					href: '/header-toolbar',
+				},
 			],
 		}
 	},
