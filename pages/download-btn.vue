@@ -23,17 +23,15 @@ const notify = (message: string, type: Notification['type']) => {
 </script>
 
 <template>
-	<VApp>
-		<NotificationBar />
-		<div class="d-flex">
-			<DownloadBtn
-				:file-promise="download"
-				:btn="{ color: 'primary'}"
-				@error="console.error"
-				@success="notify('Votre attestation a été téléchargée', 'success')"
-			>
-				Download
-			</DownloadBtn>
-		</div>
-	</VApp>
+	<NotificationBar />
+	<div class="d-flex">
+		<DownloadBtn
+			:file-promise="download"
+			:btn="{ color: 'primary'}"
+			@error="console.error"
+			@success="notify('Votre attestation a été téléchargée', 'success')"
+		>
+			Download
+		</DownloadBtn>
+	</div>
 </template>
