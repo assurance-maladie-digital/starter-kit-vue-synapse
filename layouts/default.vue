@@ -95,6 +95,10 @@ export default defineComponent({
 					label: 'LangBtn',
 					href: '/lang-btn',
 				},
+				{
+					label: 'DownloadBtn',
+					href: '/download-btn',
+				},
 			],
 		}
 	},
