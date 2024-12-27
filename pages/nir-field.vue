@@ -67,6 +67,16 @@ const handleSubmit = () => {
 		:required="false"
 		numberLabel="Numéro de sécurité sociale"
 		keyLabel="Clé"
+		:showSuccessMessages="true"
+	/>
+
+	<br/>
+
+	<NirField
+		v-model="value"
+		:required="false"
+		numberLabel="Numéro de sécurité sociale"
+		keyLabel="Clé"
 		:displayKey="true"
 		:customNumberRules="[{ type: 'minLength', options: { length: 10, ignoreSpace: true, message: 'Le numéro de sécurité sociale doit avoir au moins 10 caractères.', successMessage: 'Le numéro de sécurité sociale a une longueur valide.' } }]"
 		:customKeyRules="[{ type: 'minLength', options: { length: 1, message: 'La clé doit avoir au moins 1 caractère.', successMessage: 'La clé a une longueur valide.' } }]"
