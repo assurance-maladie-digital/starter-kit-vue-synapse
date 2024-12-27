@@ -83,7 +83,7 @@
 	$menu-content-border-radius: 0
 );
 
-@use '@cnamts/synapse/src/assets/tokens.scss';
+@use '@cnamts/synapse/src/assets/tokens' as tokens;
 
 /* Default, global styles */
 * {
