@@ -83,7 +83,7 @@
 	$menu-content-border-radius: 0
 );
 
-// @use '@cnamts/synapse/src/assets/tokens.scss' as tokens;
+@use '@cnamts/synapse/assets/tokens.scss';
 
 /* Default, global styles */
 * {
@@ -109,6 +109,5 @@ body {
 /* Apply default transition to links */
 a {
 	transition: 0.25s;
-	// color: tokens.$primary-base;
-	color: #0c419a;
+	color: tokens.$primary-base;
 }
