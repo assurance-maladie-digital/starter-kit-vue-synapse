@@ -123,6 +123,10 @@ export default defineComponent({
 					label: 'SyBtnSelect',
 					href: '/sy-btn-select',
 				},
+				{
+					label: 'NirField',
+					href: '/nir-field',
+				},
 			],
 		}
 	},
