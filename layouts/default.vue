@@ -1,11 +1,11 @@
+<script setup lang="ts">
+	import { PageContainer, FooterBar } from '@cnamts/synapse'
+</script>
+
 <template>
 	<VApp>
 		<main>
-			<HeaderNavigationBar
-				service-title="Titre du service"
-				service-sub-title="Description du service"
-				:items="navigationItems"
-			/>
+			<Header/>
 			<PageContainer>
 				<slot />
 			</PageContainer>
@@ -21,114 +21,3 @@
 		</main>
 	</VApp>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
-import { PageContainer, HeaderNavigationBar, FooterBar } from '@cnamts/synapse'
-
-export default defineComponent({
-	components: {
-		PageContainer,
-		HeaderNavigationBar,
-		FooterBar,
-	},
-	data() {
-		return {
-			navigationItems: [
-				{
-					label: 'Accueil',
-					href: '/home',
-				},
-				{
-					label: 'Inva',
-					href: '/test-inva',
-				},
-				{
-					label: 'SyAlert',
-					href: '/sy-alert',
-				},
-				{
-					label: 'PageContainer',
-					href: '/page-container',
-				},
-				{
-					label: 'HeaderBar',
-					href: '/header-bar',
-				},
-				{
-					label: 'FooterBar',
-					href: '/footer-bar',
-				},
-				{
-					label: 'SubHeader',
-					href: '/sub-header',
-				},
-				{
-					label: 'HeaderToolbar',
-					href: '/header-toolbar',
-				},
-				{
-					label: 'HeaderLoading',
-					href: '/header-loading',
-				},
-				{
-					label: 'SocialMediaLinks',
-					href: '/social-media-links',
-				},
-				{
-					label: 'SkipLink',
-					href: '/skip-link',
-				},
-				{
-					label: 'BackBtn',
-					href: '/back-btn',
-				},
-				{
-					label: 'BackToTopBtn',
-					href: '/back-to-top-btn',
-				},
-				{
-					label: 'CopyBtn',
-					href: '/copy-btn',
-				},
-				{
-					label: 'LangBtn',
-					href: '/lang-btn',
-				},
-				{
-					label: 'DownloadBtn',
-					href: '/download-btn',
-				},
-				{
-					label: 'FranceConnectBtn',
-					href: '/france-connect-btn',
-				},
-				{
-					label: 'UserMenuBtn',
-					href: '/user-menu-btn',
-				},
-				{
-					label: 'SyTextField',
-					href: '/sy-text-field',
-				},
-				{
-					label: 'SySelect',
-					href: '/sy-select',
-				},
-				{
-					label: 'SyInputSelect',
-					href: '/sy-input-select',
-				},
-				{
-					label: 'SyBtnSelect',
-					href: '/sy-btn-select',
-				},
-				{
-					label: 'NirField',
-					href: '/nir-field',
-				},
-			],
-		}
-	},
-})
-</script>
