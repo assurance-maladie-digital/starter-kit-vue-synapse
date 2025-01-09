@@ -44,6 +44,10 @@
 				label: 'ContextualMenu',
 				to: '/contextual-menu',
 			},
+			{
+				label: ' ExternalLinks',
+				to: '/external-links',
+			}
 		],
 		boutons: [
 			{
