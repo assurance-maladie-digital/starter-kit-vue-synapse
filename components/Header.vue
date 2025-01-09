@@ -105,6 +105,20 @@
 				to: '/phone-field',
 			},
 		],
+		templates: [
+			{
+				label: 'ErrorPage',
+				to: '/error-page',
+			},
+			{
+				label: 'MaintenancePage',
+				to: '/maintenance-page',
+			},
+			{
+				label: 'NotFoundPage',
+				to: '/not-found-page',
+			},
+		],
 		donnees: [
       {
         label: 'Logo',
