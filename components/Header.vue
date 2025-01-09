@@ -47,6 +47,10 @@
 			{
 				label: ' ExternalLinks',
 				to: '/external-links',
+			},
+			{
+				label: 'DialogBox',
+				to: '/dialog-box',
 			}
 		],
 		boutons: [
