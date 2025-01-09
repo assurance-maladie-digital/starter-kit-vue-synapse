@@ -100,6 +100,10 @@
 				label: 'NirField',
 				to: '/nir-field',
 			},
+			{
+				label: 'PhoneField',
+				to: '/phone-field',
+			},
 		],
 		données: [
 

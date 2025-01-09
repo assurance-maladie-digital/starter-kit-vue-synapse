@@ -1,0 +1,27 @@
+<script setup lang="ts">
+import { PhoneField } from '@cnamts/synapse'
+import { ref } from 'vue'
+
+const value = ref('')
+
+const handleChange = (newValue) => {
+	console.log('Value changed:', newValue)
+}
+const customIndicatifs = ref([
+	{ code: '+99', country: 'Utopia', abbreviation: 'UT', mask: '## ## ## ##', phoneLength: 8 },
+	{ code: '+98', country: 'Paradise', abbreviation: 'PA', mask: '## ## ## ##', phoneLength: 18 },
+])
+</script>
+
+<template>
+	<PhoneField
+		v-model="value"
+		required
+		with-country-code
+		country-code-required
+		display-format="code-abbreviation"
+		:custom-indicatifs="customIndicatifs"
+		:use-custom-indicatifs-only="true"
+		@change="handleChange"
+	/>
+</template>
