@@ -118,16 +118,20 @@
 				label: 'NotFoundPage',
 				to: '/not-found-page',
 			},
+			{
+				label: 'CookieBanner',
+				to: '/cookie-banner',
+			}
 		],
 		donnees: [
-      {
-        label: 'Logo',
-        to: '/logo',
-      },
-      {
-        label: 'LogoBrandSection',
-        to: '/logo-brand-section',
-      },
+			{
+				label: 'Logo',
+				to: '/logo',
+			},
+			{
+				label: 'LogoBrandSection',
+				to: '/logo-brand-section',
+			},
 		],
 		feedback: [
 			{
