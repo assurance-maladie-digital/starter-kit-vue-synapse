@@ -110,6 +110,10 @@
         label: 'Logo',
         to: '/logo',
       },
+      {
+        label: 'LogoBrandSection',
+        to: '/logo-brand-section',
+      },
 		],
 		feedback: [
 			{
