@@ -40,6 +40,10 @@
 				label: 'SkipLink',
 				to: '/skip-link',
 			},
+			{
+				label: 'ContextualMenu',
+				to: '/contextual-menu',
+			},
 		],
 		boutons: [
 			{
