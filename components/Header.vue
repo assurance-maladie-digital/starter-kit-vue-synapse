@@ -124,14 +124,18 @@
 			}
 		],
 		donnees: [
-			{
-				label: 'Logo',
-				to: '/logo',
-			},
-			{
-				label: 'LogoBrandSection',
-				to: '/logo-brand-section',
-			},
+      {
+        label: 'Logo',
+        to: '/logo',
+      },
+      {
+        label: 'LogoBrandSection',
+        to: '/logo-brand-section',
+      },
+      {
+        label: 'CollapsibleList',
+        to: '/collapsible-list',
+      },
 		],
 		feedback: [
 			{
