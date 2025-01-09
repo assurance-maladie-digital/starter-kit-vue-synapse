@@ -105,8 +105,11 @@
 				to: '/phone-field',
 			},
 		],
-		données: [
-
+		donnees: [
+      {
+        label: 'Logo',
+        to: '/logo',
+      },
 		],
 		feedback: [
 			{
