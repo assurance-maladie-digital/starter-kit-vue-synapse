@@ -140,6 +140,10 @@
         label: 'CollapsibleList',
         to: '/collapsible-list',
       },
+      {
+        label: 'DataList',
+        to: '/data-list',
+      },
 		],
 		feedback: [
 			{
