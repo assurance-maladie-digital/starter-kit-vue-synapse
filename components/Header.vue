@@ -142,6 +142,10 @@
 				label: 'SyAlert',
 				to: '/sy-alert',
 			},
+			{
+				label: 'NotificationBar',
+				to: '/notification-bar',
+			}
 		]
 	}
 
