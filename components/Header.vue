@@ -48,10 +48,6 @@
 				label: ' ExternalLinks',
 				to: '/external-links',
 			},
-			{
-				label: 'DialogBox',
-				to: '/dialog-box',
-			}
 		],
 		boutons: [
 			{
@@ -157,7 +153,11 @@
 			{
 				label: 'NotificationBar',
 				to: '/notification-bar',
-			}
+			},
+      {
+        label: 'DialogBox',
+        to: '/dialog-box',
+      }
 		]
 	}
 
