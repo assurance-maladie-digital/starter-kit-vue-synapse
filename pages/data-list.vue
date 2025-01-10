@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { DataList } from '@cnamts/synapse'
 import { mdiCalendar, mdiAccount, mdiInformationOutline } from '@mdi/js'
+import { ref } from 'vue'
 
 const icons = {
 	calendarIcon: mdiCalendar,
@@ -34,26 +35,21 @@ const items = [
 	},
 ]
 
-const itemsAction = [
+const itemsAction = ref([
 	{
 		key: 'Nom',
 		value: 'Dupont',
-		icon: 'accountIcon',
 	},
 	{
 		key: 'Prénom',
 		value: 'Paul',
-		icon: 'accountIcon',
-		options: itemOptions,
-		chip: true,
 	},
 	{
 		key: 'Date de naissance',
 		value: '24/09/1970',
-		icon: 'calendarIcon',
 		action: 'Modifier',
 	},
-]
+])
 
 const itemsHtml = [
 	{
@@ -71,8 +67,7 @@ const itemsHtml = [
 ]
 
 const updateBirthdate = (index: number) => {
-	// console.log(itemsAction[index].value)
-	itemsAction[index].value = '25/09/1970'
+	itemsAction.value[index].value = '25/09/1970'
 }
 </script>
 

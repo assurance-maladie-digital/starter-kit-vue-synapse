@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { DataListGroup } from '@cnamts/synapse'
 import { mdiCalendar, mdiAccount, mdiDoctor, mdiCardAccountDetails, mdiPencil } from '@mdi/js'
+import { ref } from 'vue'
 
 const items = [
 	{
@@ -50,7 +51,7 @@ const items = [
 	},
 ]
 
-const itemsAction = [
+const itemsAction = ref([
 	{
 		title: 'Informations patient',
 		items: [
@@ -91,7 +92,7 @@ const itemsAction = [
 			},
 		],
 	},
-]
+])
 
 const itemsChips = [
 	{
