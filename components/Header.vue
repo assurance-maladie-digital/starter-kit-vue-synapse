@@ -144,6 +144,10 @@
         label: 'DataList',
         to: '/data-list',
       },
+      {
+        label: 'DataListGroup',
+        to: '/data-list-group',
+      },
 		],
 		feedback: [
 			{
