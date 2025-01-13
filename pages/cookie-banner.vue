@@ -44,8 +44,47 @@ const items = {
 	],
 }
 
+const vuetifyOptions = {
+	sheet: {
+		color: '#ced9eb',
+	},
+	customizeBtn: {
+		variant: 'text',
+		color: 'orange',
+	},
+	rejectBtn: {
+		variant: 'outlined',
+	},
+	acceptBtn: {
+		variant: 'outlined',
+	},
+}
 </script>
 
 <template>
-	<CookieBanner v-model="modelValue" :items @accept="onAccept" @reject="onReject" @customize="onCustomize" />
+<!--	<CookieBanner
+		@accept="onAccept"
+		@reject="onReject"
+		@customize="onCustomize"
+		v-model="modelValue"
+	>
+		<p><b>Custom</b> description</p>
+	</CookieBanner>-->
+
+<!--	<CookieBanner
+		v-model="modelValue"
+		:items
+		@accept="onAccept"
+		@reject="onReject"
+		@customize="onCustomize"
+	/>-->
+
+	<CookieBanner
+		:items
+		@accept="onAccept"
+		@reject="onReject"
+		@customize="onCustomize"
+		v-model="modelValue"
+		:vuetifyOptions="vuetifyOptions"
+	/>
 </template>

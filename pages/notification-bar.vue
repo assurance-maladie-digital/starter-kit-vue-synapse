@@ -29,26 +29,30 @@
 			</template>
 		</NotificationBar>
 
-		<div class="button-group">
-			<VBtn
-				color="info"
-				@click="envoyerNotification('Première notification', 'info')"
-			>
-				Envoyer Notification 1
-			</VBtn>
-			<VBtn
-				color="success"
-				@click="envoyerNotification('Deuxième notification', 'success')"
-			>
-				Envoyer Notification 2
-			</VBtn>
-			<VBtn
-				color="error"
-				@click="envoyerNotification('Troisième notification', 'error')"
-			>
-				Envoyer Notification 3
-			</VBtn>
-		</div>
+		<VBtn
+			color="info"
+			@click="envoyerNotification('Info notification', 'info')"
+		>
+			Info
+		</VBtn>
+		<VBtn
+			color="success"
+			@click="envoyerNotification('Success notification', 'success')"
+		>
+			Success
+		</VBtn>
+		<VBtn
+			color="warning"
+			@click="envoyerNotification('Warning notification', 'warning')"
+		>
+			Warning
+		</VBtn>
+		<VBtn
+			color="error"
+			@click="envoyerNotification('Error notification', 'error')"
+		>
+			Error
+		</VBtn>
 	</div>
 </template>
 
