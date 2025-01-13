@@ -1,10 +1,10 @@
 <template>
 	<VApp>
 		<main>
-			<HeaderBar
+			<HeaderNavigationBar
 				service-title="Titre du service"
 				service-sub-title="Description du service"
-				:navigation-items="navigationItems"
+				:items="navigationItems"
 			/>
 			<PageContainer>
 				<slot />
@@ -16,7 +16,7 @@
 				hide-legal-notice-link
 				hide-sitemap-link
 			>
-				<p class="text-secondary mb-0">Contenu supplémentaire.</p>
+				<p class="text-white mb-0">Contenu supplémentaire.</p>
 			</FooterBar>
 		</main>
 	</VApp>
@@ -24,12 +24,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { PageContainer, HeaderBar, FooterBar } from '@cnamts/synapse'
+import { PageContainer, HeaderNavigationBar, FooterBar } from '@cnamts/synapse'
 
 export default defineComponent({
 	components: {
 		PageContainer,
-		HeaderBar,
+		HeaderNavigationBar,
 		FooterBar,
 	},
 	data() {

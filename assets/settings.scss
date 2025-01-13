@@ -1,14 +1,11 @@
 @forward 'vuetify/settings' with (
 	$color-pack: false,
 	$body-font-family: (
-		'Source Sans 3',
-		'Source Sans Pro',
+		Arial,
 		sans-serif,
 	),
 	$heading-font-family: (
-		'Mic 32 New',
-		'Source Sans 3',
-		'Source Sans Pro',
+		Arial,
 		sans-serif,
 	),
 	$typography: (
@@ -86,8 +83,7 @@
 	$menu-content-border-radius: 0
 );
 
-@use './fonts.scss';
-@use '@cnamts/synapse/src/assets/tokens.scss';
+@use '@cnamts/synapse/assets/tokens.scss';
 
 /* Default, global styles */
 * {
@@ -102,7 +98,7 @@ html,
 body {
 	/* Font size defined by the browser */
 	font-size: 100%;
-	font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+	font-family: Arial, sans-serif;
 }
 
 /* Hide the application while Vue.js is loading */

@@ -1,12 +1,13 @@
 // import { customLightTheme } from 'assets/customLightTheme'
 // import { customDarkTheme } from 'assets/customDarkTheme'
-import { cnamLightTheme } from '@cnamts/synapse/designTokens/tokens/cnam/cnamLightTheme'
-import { cnamDarkTheme } from '@cnamts/synapse/designTokens/tokens/cnam/cnamDarkTheme'
+import {cnamLightTheme} from '@cnamts/synapse/designTokens/tokens/cnam/cnamLightTheme'
+import {cnamDarkTheme} from '@cnamts/synapse/designTokens/tokens/cnam/cnamDarkTheme'
 import Components from 'unplugin-vue-components/vite'
-import { fr } from 'vuetify/locale'
+import {fr} from 'vuetify/locale'
 
 export default defineNuxtConfig({
 	ssr: false,
+
 	runtimeConfig: {
 		public: {
 			title: process.env.TITLE,
@@ -14,18 +15,21 @@ export default defineNuxtConfig({
 			theme: process.env.THEME,
 		},
 	},
-	devtools: { enabled: true },
+
+	devtools: {enabled: true},
+
 	modules: [
 		'vuetify-nuxt-module',
 		'dayjs-nuxt',
 		'@pinia/nuxt',
 		'@nuxt/eslint',
 	],
+
 	vuetify: {
 		vuetifyOptions: {
 			locale: {
 				locale: 'fr',
-				messages: { fr },
+				messages: {fr},
 			},
 			icons: {
 				defaultSet: 'mdi-svg',
@@ -49,24 +53,32 @@ export default defineNuxtConfig({
 			},
 		},
 	},
+
 	build: {
 		transpile: ['vuetify', '@cnamts/synapse'],
 	},
+
 	vite: {
 		// change the component dirs to match our project layout
-		plugins: [Components({ dts: true, dirs: ['./components'] })],
+		plugins: [Components({dts: true, dirs: ['./components']})],
 	},
+
 	css: ['@cnamts/synapse/style.css', '~/assets/settings.scss'],
+
 	imports: {
 		dirs: ['./stores'],
 	},
+
 	dayjs: {
 		locales: ['en', 'fr'],
 		plugins: ['relativeTime', 'utc', 'timezone'],
 		defaultLocale: 'fr',
 		defaultTimezone: 'Europe/Paris',
 	},
+
 	pinia: {
 		autoImports: ['defineStore', 'acceptHMRUpdate'],
 	},
+
+	compatibilityDate: '2024-12-23',
 })
