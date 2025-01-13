@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <MaintenancePage />
+	<div style="padding: 20px; background: rgb(231, 236, 245)">
+		<MaintenancePage />
+	</div>
 </template>
-
-<style lang="scss" scoped></style>
