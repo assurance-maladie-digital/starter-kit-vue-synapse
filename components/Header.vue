@@ -104,6 +104,10 @@
 				label: 'PhoneField',
 				to: '/phone-field',
 			},
+			{
+				label: 'PasswordField',
+				to: '/password-field',
+			},
 		],
 		templates: [
 			{
