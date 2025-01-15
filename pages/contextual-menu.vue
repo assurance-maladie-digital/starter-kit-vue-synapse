@@ -19,6 +19,38 @@
 		hash: '#section-5',
 	}]
 
+	const items2 = [
+		{
+			text: 'Level 1',
+			hash: '#example-1',
+		},
+		{
+			text: 'Level 2',
+			hash: '#example-2',
+			level: 2,
+		},
+		{
+			text: 'Level 3',
+			hash: '#example-3',
+			level: 3,
+		},
+		{
+			text: 'Level 4',
+			hash: '#example-4',
+			level: 4,
+		},
+		{
+			text: 'Level 5',
+			hash: '#example-5',
+			level: 5,
+		},
+		{
+			text: 'Level 6',
+			hash: '#example-6',
+			level: 6,
+		},
+	]
+
 	const hash = ref<string | null>('#section-1')
 </script>
 
@@ -68,6 +100,9 @@
 			</section>
 		</div>
 	</div>
+	<ContextualMenu
+		:items="items2"
+	/>
 </template>
 
 <style lang="scss" scoped>
