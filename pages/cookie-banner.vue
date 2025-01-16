@@ -45,7 +45,7 @@ const items = {
 }
 
 const vuetifyOptions = {
-	sheet: {
+	banner: {
 		color: '#ced9eb',
 	},
 	customizeBtn: {
@@ -62,6 +62,7 @@ const vuetifyOptions = {
 </script>
 
 <template>
+	{{ modelValue }}
 <!--	<CookieBanner
 		@accept="onAccept"
 		@reject="onReject"
