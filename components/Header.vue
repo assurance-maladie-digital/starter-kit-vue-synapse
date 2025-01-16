@@ -166,6 +166,19 @@
 	}
 
 	const menuOpen = ref(false)
+
+	const themes = [
+		{
+			"text": "Cnam",
+			"value": "cnam"
+		},
+		{
+			"text": "Inva",
+			"value": "inva"
+		}
+	];
+
+	const selectedTheme = ref({ "text": "Cnam", "value": "cnam" });
 </script>
 
 <template>

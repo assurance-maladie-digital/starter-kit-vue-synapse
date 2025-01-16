@@ -1,14 +1,5 @@
 <template>
 	<div>
-		<VAlert
-			class="mx-6 my-4"
-			border="start"
-			color="primary"
-			title="Changement de theme"
-			variant="tonal"
-		>
-			<p>Pour tester le changement de theme, il faut modifier la valeur theme dans le fichier : public/json/config.env.json (vuetify ou bootstrap)</p>
-		</VAlert>
 		<PageContainer>
 			<BackBtn to="/"/>
 			<VBtn color="primary">
