@@ -2,6 +2,8 @@
 // import { customDarkTheme } from 'assets/customDarkTheme'
 import {cnamLightTheme} from '@cnamts/synapse/designTokens/tokens/cnam/cnamLightTheme'
 import {cnamDarkTheme} from '@cnamts/synapse/designTokens/tokens/cnam/cnamDarkTheme'
+// import {paLightTheme} from '@cnamts/synapse/designTokens/tokens/pa/paLightTheme'
+// import {paDarkTheme} from '@cnamts/synapse/designTokens/tokens/pa/paDarkTheme'
 import Components from 'unplugin-vue-components/vite'
 import {fr} from 'vuetify/locale'
 
@@ -40,12 +42,14 @@ export default defineNuxtConfig({
 					light: {
 						colors: {
 							...cnamLightTheme,
+							// ...paLightTheme,
 							// ...customLightTheme
 						},
 					},
 					dark: {
 						colors: {
 							...cnamDarkTheme,
+							// ...paDarkTheme,
 							//...customDarkTheme,
 						},
 					},
