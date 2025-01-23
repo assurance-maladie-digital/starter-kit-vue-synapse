@@ -27,7 +27,7 @@
 		"nuxt": "^3.12.0",
 		"sass": "^1.70.0",
 		"unplugin-vue-components": "^0.26.0",
-		"vite": "^5.0.12",
+		"vite": "^6.0.0",
 		"vitest": "^1.2.1",
 		"vuetify": "^3.5.12",
 		"vuetify-nuxt-module": "^0.14.1"
