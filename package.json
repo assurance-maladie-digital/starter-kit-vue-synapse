@@ -19,7 +19,7 @@
 		"lint:fix": "eslint . --fix && prettier --write --list-different ."
 	},
 	"dependencies": {
-		"@cnamts/synapse": "0.0.8-alpha",
+		"@cnamts/synapse": "0.0.9-alpha",
 		"@mdi/js": "7.2.96",
 		"@nuxtjs/i18n": "8.3.1",
 		"@pinia/nuxt": "^0.4.11",
