@@ -20,10 +20,10 @@
 		"lint:migrate:fix": "npx eslint@6 --ext .ts,.js,.vue --ignore-path .gitignore . --fix -c .eslintrc.migration.cjs"
 	},
 	"dependencies": {
-		"@cnamts/synapse": "0.0.10-alpha",
+		"@cnamts/synapse": "0.0.11-alpha",
 		"@mdi/js": "7.2.96",
 		"@nuxtjs/i18n": "8.3.1",
-		"@pinia/nuxt": "^0.4.11",
+		"@pinia/nuxt": "^0.5.5",
 		"dayjs-nuxt": "^1.2.7",
 		"nuxt": "^3.12.0",
 		"sass": "^1.70.0",
