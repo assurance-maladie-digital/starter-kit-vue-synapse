@@ -46,7 +46,7 @@ export default defineNuxtConfig({
 				defaultSet: 'mdi-svg',
 			},
 			theme: {
-				defaultTheme: 'pa',
+				defaultTheme: 'cnam',
 				themes: {
 					cnam: {
 						dark: false,
