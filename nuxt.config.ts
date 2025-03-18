@@ -1,7 +1,18 @@
 // import { customLightTheme } from 'assets/customLightTheme'
 // import { customDarkTheme } from 'assets/customDarkTheme'
-import {cnamLightTheme} from '@cnamts/synapse/designTokens/tokens/cnam/cnamLightTheme'
-import {cnamDarkTheme} from '@cnamts/synapse/designTokens/tokens/cnam/cnamDarkTheme'
+
+import {
+	cnamColorsTokens,
+	cnamContextualTokens,
+	cnamLightTheme,
+	cnamDarkTheme,
+	paColorsTokens,
+	paContextualTokens,
+	paLightTheme,
+	paDarkTheme,
+} from '@cnamts/synapse/designTokens'
+import { createFlattenTheme } from '@cnamts/synapse/designTokens/utils'
+
 import Components from 'unplugin-vue-components/vite'
 import {fr} from 'vuetify/locale'
 
@@ -35,18 +46,30 @@ export default defineNuxtConfig({
 				defaultSet: 'mdi-svg',
 			},
 			theme: {
-				defaultTheme: 'light',
+				defaultTheme: 'cnam',
 				themes: {
-					light: {
+					cnam: {
+						dark: false,
 						colors: {
 							...cnamLightTheme,
-							// ...customLightTheme
+							...cnamDarkTheme,
+						},
+						variables: {
+							'border-color': cnamColorsTokens.grey.base,
+							'font-family': '"Arial", sans-serif',
+							...createFlattenTheme(cnamContextualTokens),
 						},
 					},
-					dark: {
+					pa: {
+						dark: false,
 						colors: {
-							...cnamDarkTheme,
-							//...customDarkTheme,
+							...paLightTheme,
+							...paDarkTheme,
+						},
+						variables: {
+							'border-color': paColorsTokens.grey.base,
+							'font-family': '"Arial", sans-serif',
+							...createFlattenTheme(paContextualTokens),
 						},
 					},
 				},

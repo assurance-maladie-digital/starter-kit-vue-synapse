@@ -16,13 +16,14 @@
 		"lint": "pnpm lint:eslint && pnpm lint:prettier",
 		"lint:eslint": "eslint .",
 		"lint:prettier": "pnpm exec prettier . --write",
-		"lint:fix": "eslint . --fix && prettier --write --list-different ."
+		"lint:fix": "eslint . --fix && prettier --write --list-different .",
+		"lint:migrate:fix": "npx eslint@6 --ext .ts,.js,.vue --ignore-path .gitignore . --fix -c .eslintrc.migration.cjs"
 	},
 	"dependencies": {
-		"@cnamts/synapse": "0.0.7-alpha",
+		"@cnamts/synapse": "0.0.11-alpha",
 		"@mdi/js": "7.2.96",
 		"@nuxtjs/i18n": "8.3.1",
-		"@pinia/nuxt": "^0.4.11",
+		"@pinia/nuxt": "^0.5.5",
 		"dayjs-nuxt": "^1.2.7",
 		"nuxt": "^3.12.0",
 		"sass": "^1.70.0",
@@ -47,6 +48,8 @@
 		"eslint": "^9.5.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-prettier": "^5.1.3",
+		"eslint-plugin-vue": "^9.21.0",
+		"eslint-plugin-vuetify": "^2.1.1",
 		"happy-dom": "^13.3.1",
 		"resize-observer-polyfill": "^1.5.1",
 		"prettier": "^3.3.2",
