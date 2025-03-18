@@ -68,7 +68,7 @@ export default defineNuxtConfig({
 						},
 						variables: {
 							'border-color': paColorsTokens.grey.base,
-							'font-family': '"Roboto", sans-serif',
+							'font-family': '"Arial", sans-serif',
 							...createFlattenTheme(paContextualTokens),
 						},
 					},
